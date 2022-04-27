@@ -1,0 +1,176 @@
+body{
+    background-color:#000!important;
+    color:#fff;
+}
+.cda-header{
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+}
+
+.border-konten{
+    border: 1px solid #2962ff;
+}
+
+.btn-klik{
+    padding: 10px 20px;
+    letter-spacing:1.5px;
+}
+
+.img-client{
+    max-width: 200px;
+    height: auto;
+    max-height: 125px;
+    margin: 20px;
+}
+
+.parallax-img-1{
+    background-image:url(https://www.cyberarmy.id/public/depan/img/publikasi/activity/act-14a.jpg);
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity:.5;
+    min-height:300px;
+}
+.parallax-text-1{
+    position:absolute;
+    font-size:30px;
+    width:100%;
+    padding-top:135px;
+    font-weight:bold;
+    letter-spacing:2.3px;
+    z-index:2;
+}
+
+@media (max-width:803px){
+    .parallax-text-1{
+        padding-top:105px
+    }
+}
+
+@media (max-width:441px){
+    .parallax-text-1{
+        padding-top:83px
+    }
+}
+
+.parallax-img-2{
+    background-image:url(https://www.cyberarmy.id/public/depan/img/akademi/aktivitas/cda-3.jpg);
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity:.5;
+    min-height:350px;
+    filter:blur(1px);
+    -webkit-filter:blur(1px);
+}
+.title-parallax-2{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2.3px;
+}
+.parallax-text-2{
+    position:absolute;
+    width:100%;
+    padding-top:134px;
+    z-index:2;
+}
+
+@media (max-width:865px){
+    .parallax-text-2{
+        padding-top:99px
+    }
+}
+
+@media (max-width:479px){
+    .parallax-text-2{
+        padding-top:77px
+    }
+}
+
+@media (max-width:991px){
+    .border-vertical{
+        border-right:none!important
+    }
+}
+
+
+/* Owl Carousel */
+.img-fluid {
+    width: 400px;
+    height: 280px;
+    display: block;
+    cursor: zoom-in;
+    border-radius: 4px;
+}
+.owl-carousel .owl-stage{
+    cursor: grab;
+}
+.owl-carousel .owl-stage:active{
+    cursor: grabbing;
+}
+.owl-dots button.owl-dot{
+    outline: none;
+}
+.mfp-counter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #CCC;
+    font-size: 12px;
+    line-height: 18px;
+    white-space: nowrap;
+    display: none;
+}
+/* End Owl Carousel */
+
+@media screen and (max-width:1240px){
+    .img-fluid {
+        width: 380px;
+        height: 260px;
+    }
+}
+@media screen and (max-width:1202px){
+    .img-fluid {
+        width: 360px;
+        height: 240px;
+    }
+}
+@media screen and (max-width:1100px){
+    .img-fluid {
+        width: 340px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:850px){
+    .img-fluid {
+        width: 320px;
+        height: 180px;
+    }
+}
+@media screen and (max-width:480px){
+    .img-fluid {
+        width: 280px;
+        height: 120px;
+    }
+}
+@media screen and (max-width:376px){
+    .img-fluid {
+        width: 300px !important;
+        height: 100px !important;
+    }
+}
+@media screen and (max-width:356px){
+    .img-fluid {
+        width: 300px !important;
+        height: 70px !important;
+    }
+}
+@media screen and (max-width:356px){
+    .img-fluid {
+        width: 300px !important;
+        height: 50px !important;
+    }
+}
